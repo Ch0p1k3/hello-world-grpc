@@ -8,8 +8,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_compile_options(-Wall -Wextra -Wpedantic -g -fno-omit-frame-pointer)
 
 # Turn warnings into errors
-add_compile_options(-Werror -Wno-language-extension-token)
+# add_compile_options(-Werror -Wno-language-extension-token)
 
-add_compile_options(-Wno-error=unused-command-line-argument)
+# add_compile_options(-Wno-error=unused-command-line-argument)
 
 message(STATUS "C++ standard: ${CMAKE_CXX_STANDARD}")
